@@ -1,0 +1,33 @@
+.banner {
+    width: 100%;
+    max-height: 230px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.flex-vert {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 100%;
+}
+
+.flex-horiz {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+}
+
+.flex-item {
+    padding: 5px;
+}
+
+button {
+    margin: 10px;
+}
