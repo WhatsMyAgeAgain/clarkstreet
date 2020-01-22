@@ -43,8 +43,7 @@ function getQuestion(category) {
 
 function getRandomQuestion(categoryId, callback) {
   $.getJSON("resources/questions.json", function (data, status) {
-    let validQuestions = JSON.parse(fs.readFileSync("resources/questions.json"))
-      .filter(q => q.c_id == categoryId);
+    let validQuestions = data.filter(q => q.c_id == categoryId);
     let q = getRandomObject(validQuestions, []);
     callback(q);
   });
