@@ -7,10 +7,11 @@ A simple web-based question generator for you and your friends: https://schwadan
     * [View Categories](https://docs.google.com/spreadsheets/d/e/2PACX-1vQeyuO244no4aeI5yYGCIESoqAwCps-PifvaK-rha0_9QlMfTLtw7rSsvRZm2Ja_9KStnifFK8QoPqb/pubhtml)
     * [View Questions](https://docs.google.com/spreadsheets/d/e/2PACX-1vS3__N0kBG7rfASDY1FJTVgxPg7cq3TI6qAbKi9ARjKtUrLrKo3U_wxfLf0ukCVto7EVXiKXlItUpOk/pubhtml)
 1. Obtain access to modify these Google Sheets documents.
-1. Make changes to the sheet(s) and request for the repository to be updated.
+1. Make changes to the sheets and request for the repository to be updated.
 
 ## If you want to make my work easier...
 
+### Setup
 1. Download the following software:
     * Git - https://git-scm.com/downloads
     * GitHub Desktop - https://desktop.github.com/
@@ -19,6 +20,9 @@ A simple web-based question generator for you and your friends: https://schwadan
     * Run ```pip install requests``` to install the Python web requests package.
 1. Fork this repository in GitHub.
 1. Sign into GitHub Desktop and clone the forked repository onto your computer.
+
+### Loading changes into the repository
+1. Make sure your Google Sheet changes are reflected in their published pages ([categories](https://docs.google.com/spreadsheets/d/e/2PACX-1vQeyuO244no4aeI5yYGCIESoqAwCps-PifvaK-rha0_9QlMfTLtw7rSsvRZm2Ja_9KStnifFK8QoPqb/pubhtml) and [questions](https://docs.google.com/spreadsheets/d/e/2PACX-1vS3__N0kBG7rfASDY1FJTVgxPg7cq3TI6qAbKi9ARjKtUrLrKo3U_wxfLf0ukCVto7EVXiKXlItUpOk/pubhtml)). The publications only update every 5 minutes, so you may have to wait a bit.
 1. Navigate to the folder where you cloned the repository and run the ```load_json.py``` script. This will pull your changes from Google Sheets and load them into the ```resources``` folder.
 1. Commit and push your local changes to GitHub.
 1. Create a pull request to the master branch.
