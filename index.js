@@ -2,16 +2,6 @@ window.onload = function () {
   setCategories();
 }
 
-function loadText(className, path) {
-  $.get({
-    url: path,
-    dataType: "text",
-    success: function (data) {
-      $("." + className).html(data);
-    }
-  });
-}
-
 function setCategories() {
   $.getJSON("resources/categories.json", function (data, status) {
     data.forEach(c => addButton(c));
