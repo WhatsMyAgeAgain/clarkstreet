@@ -4,8 +4,8 @@ A simple web-based question generator for you and your friends: https://schwadan
 ## How to contribute questions:
 
 1. Familiarize yourself with the categories and questions, which are managed in published Google Sheets:
-    * [View Categories](https://docs.google.com/spreadsheets/d/e/2PACX-1vQeyuO244no4aeI5yYGCIESoqAwCps-PifvaK-rha0_9QlMfTLtw7rSsvRZm2Ja_9KStnifFK8QoPqb/pub?output=csv)
-    * [View Questions](https://docs.google.com/spreadsheets/d/e/2PACX-1vS3__N0kBG7rfASDY1FJTVgxPg7cq3TI6qAbKi9ARjKtUrLrKo3U_wxfLf0ukCVto7EVXiKXlItUpOk/pub?output=csv)
+    * [View Categories](https://docs.google.com/spreadsheets/d/e/2PACX-1vQeyuO244no4aeI5yYGCIESoqAwCps-PifvaK-rha0_9QlMfTLtw7rSsvRZm2Ja_9KStnifFK8QoPqb/pubhtml)
+    * [View Questions](https://docs.google.com/spreadsheets/d/e/2PACX-1vS3__N0kBG7rfASDY1FJTVgxPg7cq3TI6qAbKi9ARjKtUrLrKo3U_wxfLf0ukCVto7EVXiKXlItUpOk/pubhtml)
 1. Obtain access to modify these Google Sheets documents.
 1. Make changes to the sheet(s) and request for the repository to be updated.
 
