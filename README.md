@@ -1,2 +1,24 @@
-# clarkstreet
-Questions for you and your friends
+# Clark Street Questions
+A simple web-based question generator for you and your friends: https://schwadan001.github.io/clarkstreet/
+
+## How to contribute questions:
+
+1. Familiarize yourself with the categories and questions, which are managed in published Google Sheets:
+    * [View Categories](https://docs.google.com/spreadsheets/d/e/2PACX-1vQeyuO244no4aeI5yYGCIESoqAwCps-PifvaK-rha0_9QlMfTLtw7rSsvRZm2Ja_9KStnifFK8QoPqb/pub?output=csv)
+    * [View Questions](https://docs.google.com/spreadsheets/d/e/2PACX-1vS3__N0kBG7rfASDY1FJTVgxPg7cq3TI6qAbKi9ARjKtUrLrKo3U_wxfLf0ukCVto7EVXiKXlItUpOk/pub?output=csv)
+1. Obtain access to modify these Google Sheets documents.
+1. Make changes to the sheet(s) and request for the repository to be updated.
+
+## If you want to make my work easier...
+
+1. Download the following software:
+    * Git - https://git-scm.com/downloads
+    * GitHub Desktop - https://desktop.github.com/
+    * Python (3.x) - https://www.python.org/downloads/
+1. Make sure pip, the Python package installer, is accessible from your command terminal by running ```pip -V``` (you may have to restart your computer)
+    * Run ```pip install requests``` to install the Python web requests package.
+1. Fork this repository in GitHub.
+1. Sign into GitHub Desktop and clone the forked repository onto your computer.
+1. Navigate to the folder where you cloned the repository and run the ```load_json.py``` script. This will pull your changes from Google Sheets and load them into the ```resources``` folder.
+1. Commit and push your local changes to GitHub.
+1. Create a pull request to the master branch.
