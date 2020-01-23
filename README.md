@@ -9,7 +9,7 @@ A simple web-based question generator for you and your friends: https://schwadan
 1. Obtain access to modify these Google Sheets documents.
 1. Make changes to the sheets and request for the repository to be updated.
 
-## If you want to make my work easier...
+## How to update the repo with Google Sheets data:
 
 ### Setup
 1. Download the following software:
