@@ -3,36 +3,36 @@ window.onload = function () {
 }
 
 function setCategories() {
-  $.getJSON("resources/categories.json", function (data, status) {
+  $.getJSON('resources/categories.json', function (data, status) {
     data.forEach(c => addButton(c));
   });
 }
 
 function addButton(category) {
-  var buttons = document.getElementById("buttons");
-  var btn = document.createElement("button");
-  btn.className = "btn btn-primary";
+  var buttons = document.getElementById('buttons');
+  var btn = document.createElement('button');
+  btn.className = 'btn btn-primary';
   btn.innerHTML = category.desc;
   btn.style.backgroundColor = category.color;
-  btn.style.border = "none";
+  btn.style.border = 'none';
   btn.onclick = function () { getQuestion(category.id) }
   buttons.appendChild(btn);
 }
 
 function getQuestion(category) {
-  $.getJSON("resources/categories.json", function (data, status) {
-    gtag("event", "Select", {
-      event_category: "Question",
+  $.getJSON('resources/categories.json', function (data, status) {
+    gtag('event', 'Select', {
+      event_category: 'Question',
       event_label: data.find(c => c.id == category).desc
     });
     getRandomQuestion(category, function (question) {
-      document.getElementById("question").innerHTML = question.q;
+      document.getElementById('question').innerHTML = question.q;
     });
   });
 }
 
 function getRandomQuestion(categoryId, callback) {
-  $.getJSON("resources/questions.json", function (data, status) {
+  $.getJSON('resources/questions.json', function (data, status) {
     let validQuestions = data.filter(q => q.c_id == categoryId);
     let q = getRandomObject(validQuestions, []);
     callback(q);
