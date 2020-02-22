@@ -1,0 +1,26 @@
+{
+  "name": "clarkstreet",
+  "description": "Questions for you and your friends",
+  "version": "1.0.0",
+  "private": false,
+  "license": "GPL-3.0",
+  "author": "schwadan001",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schwadan001/clarkstreet.git"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha --exit test/*.test.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "mocha": "^7.0.0",
+    "supertest": "^4.0.2"
+  }
+}
