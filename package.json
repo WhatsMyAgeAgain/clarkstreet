@@ -27,7 +27,6 @@
         "express": "^4.16.4"
     },
     "devDependencies": {
-        "ava": "^0.25.0",
         "supertest": "^4.0.0"
     }
 }
