@@ -20,7 +20,7 @@ def to_json(data):
 
 
 nameIdx = {0: 'categories', 1: 'questions'}
-fileIdx = {0: './resources/categories.json', 1: './resources/questions.json'}
+fileIdx = {0: '../resources/categories.json', 1: '../resources/questions.json'}
 
 # set urls for Google Sheet data
 base_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-[[id]]/pub?output=csv'

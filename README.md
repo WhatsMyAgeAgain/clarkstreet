@@ -1,5 +1,5 @@
 # Clark Street Questions
-A simple web-based question generator for you and your friends: https://schwadan001.github.io/clarkstreet/
+A simple web-based question generator for you and your friends: https://clarkstreet.appspot.com/
 
 ## How to contribute questions:
 
